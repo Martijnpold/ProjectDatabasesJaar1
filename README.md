@@ -23,13 +23,12 @@ Processen:
 
 Tabs:
 > Home
-    > Welkom berichtje
-    > Verwijzing naar de tabjes en de inhoud
+    + Verwijzing naar de tabjes en de inhoud
 > Klanten
-    > Zoeken naar klanten
-    > Toevoegen klanten
-    > Verwijderen klanten
-    > Aanpassen klanten
+    + Zoeken naar klanten
+    + Toevoegen klanten
+    + Verwijderen klanten
+    + Aanpassen klanten
 > Verkoop
     > Kiezen van klant (met search)
     > Order invullen, medicijn kiezen
@@ -37,8 +36,8 @@ Tabs:
     > Totaalprijs exclusief en inclusief korting
     > Save Order knop
 > Inkoop
-    > Lijst met tekort (aantal + minimum)
-    > Klik op product voor leveranciers (Gesorteerd op prijs)
+    + Lijst met tekort (aantal + minimum)
+    + Klik op product voor leveranciers (Gesorteerd op prijs)
 > Facturering
     > Orders met "Facturerings" status displayen
     > Op order klikken laat de medewerker aanvinken wat er verstuurd is en versturen.
