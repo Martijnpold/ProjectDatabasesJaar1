@@ -16,13 +16,13 @@
     <nav class="navbar navbar-expand navbar-dark bg-dark mb-4">
       <a class="navbar-brand" href="#">Timaflu</a>
         <ul class="navbar-nav mr-auto">
-          <li class="nav-item active">
+          <li class="nav-item">
             <a class="nav-link " href="home.html">Home<span class="sr-only">(current)</span></a>
           </li>
           <li class="nav-item">
             <a class="nav-link" href="klanten.html">Klanten</a>
           </li>
-          <li class="nav-item">
+          <li class="nav-item active">
             <a class="nav-link" href="verkoop.html">Verkoop</a>
           </li>
           <li class="nav-item">
@@ -38,39 +38,138 @@
     </nav>
 
     <main role="main" class="container">
-      <div class="row">
-          <div class="jumbotron col">
-              <h1>Kies een klant of voeg er een toe.</h1>
-              <input type="search" placeholder="Klant Naam">
-              <br>
-              <a href="1.1.html">Barack Obama</a>
-              <br>
-              <a href="klanten-martijn.html">Martijn Polderman</a>
-              <br>
-              <a href="klanten-sven.html">Sven Kuiper</a>
-              <br>
-              <a class="green" href="#">Klant Toevoegen</a>
-          </div>
-          <div class="jumbotron col">
-              <h1>Verkoop</h1>
-              <p class="lead">Klik op een klant</p>
-            Naam
-            <br>
-            <input type="search" value="">
-            <br> Postcode
-            <br>
-            <input type="search" value="">
-            <br> Huisnr
-            <br>
-            <input type="search" value="">
-            <br> Telefoonnummers
-            <input type="search" value="">
-            <br>
-            <br>
-            
-            <button onclick="window.location.href='klanten.html'">Opslaan</button>
-            <button onclick="window.location.href='klanten.html'">Verwijderen</button>
-      </div>
+        <main role="main" class="container">
+            <div class="row">
+                <div class="jumbotron col">
+                    <h1>Active order</h1>
+                    <input type="search" placeholder="Klant Naam">
+                    <br>
+                    <a href="1.1.html">Barack Obama</a>
+                    <br>
+                    <a class="green" href="klanten-nieuw.html">Klant Toevoegen</a>
+                </div>
+                <div class="jumbotron col">
+                    <h1>Verkoop</h1>
+                    Naam
+                    <br>
+                    <input type="search" value="">
+                    <br>
+        
+                    <h1>Producten verkocht</h1>   
+                    <br>
+                    <select>
+                        <option value="medicijn">paracetamol</option>
+                        <option value="medicijn1">anticonceptiepil</option>
+                        <option value="medicijn2">laxeermiddel  </option>
+                        <option value="medicfijn3"> metoclopramide</option> 
+                        <option value="medicfijn4" selected> ibrophen </option>
+                        <br>
+                    </select>
+                    &nbsp;
+                    &nbsp;
+                    &nbsp;
+                    &nbsp;
+                    <a> metoclopramide prijs per pakje:  €19</a>
+                    <br>
+                    <br>
+                    <form oninput="x.value=parseInt(a.value)*parseInt(b.value)">0
+                    <input type="range" id="a" value="50">100
+                    * <input type="number" id="b" value="19">
+                    =<output name="x" for="a b"></output>
+                    </form> 
+                   <br>
+                        <select>
+                                <option value="medicijn">paracetamol</option>
+                                <option value="medicijn1">anticonceptiepil</option>
+                                <option value="medicijn2">laxeermiddel  </option>
+                                <option value="medicfijn3"> ibrophen</option> 
+                                <option value="medicfijn4" selected>  metoclopramide </option>
+                                <br>
+                        </select>
+                        &nbsp;
+                        &nbsp; 
+                        &nbsp;
+                        &nbsp;
+                        <a> anticonceptiepil prijs per pakje:  €13</a>
+                        <br>
+                        <br>
+                        <form oninput="x.value=parseInt(a.value)*parseInt(b.value)">0
+                        <input type="range" id="a" value="50">100
+                        * <input type="number" id="b" value="13">
+                        =<output name="x" for="a b"></output>
+                        </form> 
+                       <br>
+                                <select>
+                                        <option value="medicijn">paracetamol</option>
+                                        <option value="medicijn1"> metoclopramide</option>
+                                        <option value="medicijn2">laxeermiddel  </option>
+                                        <option value="medicfijn3"> ibrophen</option> 
+                                        <option value="medicfijn4" selected> anticonceptiepil </option>
+                                        <br>
+                                    </select>
+                                    &nbsp;
+                                    &nbsp; 
+                                    &nbsp;
+                                    &nbsp;
+                                    <a> laxeermidde prijs per pakje:  €14</a>
+                                    <br>
+                                    <br>
+                                    <form oninput="x.value=parseInt(a.value)*parseInt(b.value)">0
+                                    <input type="range" id="a" value="50">100
+                                    * <input type="number" id="b" value="14">
+                                    =<output name="x" for="a b"></output>
+                                    </form> 
+                                   <br>
+                                        <select>
+                                                <br>
+                                                <br>
+                                                <option value="medicijn">paracetamol</option>
+                                                <option value="medicijn1">anticonceptiepil</option>
+                                                <option value="medicijn2"> metoclopramide  </option>
+                                                <option value="medicfijn3"> ibrophen</option> 
+                                                <option value="medicfijn4" selected>laxeermiddel </option>
+                                                <br>
+                                            </select>
+                                            &nbsp;
+                                            &nbsp;
+                                            
+                                            <a> Laxeermiddel prijs per pakje:  €14</a>
+                                            <br>
+                                            <br>
+                                            <form oninput="x.value=parseInt(a.value)*parseInt(b.value)">0
+                                            <input type="range" id="a" value="50">100
+                                            * <input type="number" id="b" value="14">
+                                            =<output name="x" for="a b"></output>
+                                            </form> 
+                                           <br>
+                                                <select>
+                                                        <br>
+                                                        <option value="medicijn">paracetamol</option>
+                                                        <option value="medicijn1">anticonceptiepil</option>
+                                                        <option value="medicijn2">laxeermiddel  </option>
+                                                        <option value="medicfijn3"> metoclopramide</option> 
+                                                        <option value="medicfijn4" selected>  ibrophen </option>
+                                                        <br>
+                                                    </select>
+                                                    &nbsp;
+                                                    &nbsp;
+                                                    &nbsp;
+                                                    &nbsp;
+                                                    <a> Ibrophen prijs per pakje:  €9</a>
+                                                    <br>
+                                                    <br>
+                                                    <form oninput="x.value=parseInt(a.value)*parseInt(b.value)">0
+                                                    <input type="range" id="a" value="50">100
+                                                    * <input type="number" id="b" value="9">
+                                                    =<output name="x" for="a b"></output>
+                                                    </form> 
+                                                   <br>
+    
+                                                   <p> Totaal prijs: </p>  &nbsp;  &nbsp;  &nbsp;  &nbsp;  &nbsp;  &nbsp;  &nbsp; 
+                    <button onclick="window.location.href='klanten.html'">Verzenden</button>
+                    <button onclick="window.location.href='klanten.html'">Verwijderen</button>
+                </div>
+            </div>
   </main>
 
 
