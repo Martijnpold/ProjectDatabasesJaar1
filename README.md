@@ -39,8 +39,8 @@ Tabs:
     + Lijst met tekort (aantal + minimum)
     + Klik op product voor leveranciers (Gesorteerd op prijs)
 > Facturering
-    > Orders met "Facturerings" status displayen
-    > Op order klikken laat de medewerker aanvinken wat er verstuurd is en versturen.
+    + Orders met "Facturerings" status displayen
+    + Op order klikken laat de medewerker aanvinken wat er verstuurd is en versturen.
 > Facturering 2 (Eventueel op hetzelfde scherm)
     + Facturen laten zien die ouder dan [invulbaar] dagen oud zijn en "betaald" op 0 hebben staan.
 > Magazijn
