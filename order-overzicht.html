@@ -7,7 +7,7 @@
     <meta name="description" content="">
     <meta name="author" content="">
     <link rel="icon" href="../../../../favicon.ico">
-    <title>Top navbar example for Bootstrap</title>
+    <title>Facturering</title>
     <link href="bootstrap/css/bootstrap.min.css" rel="stylesheet">
     <link href="css/theme.css" rel="stylesheet">
   </head>
@@ -16,7 +16,7 @@
     <nav class="navbar navbar-expand navbar-dark bg-dark mb-4">
       <a class="navbar-brand" href="#">Timaflu</a>
         <ul class="navbar-nav mr-auto">
-          <li class="nav-item active">
+          <li class="nav-item">
             <a class="nav-link " href="home.html">Home<span class="sr-only">(current)</span></a>
           </li>
           <li class="nav-item">
@@ -28,7 +28,7 @@
           <li class="nav-item">
             <a class="nav-link" href="inkoop.html">Inkoop</a>
           </li>
-          <li class="nav-item">
+          <li class="nav-item active">
             <a class="nav-link" href="facturering.html">Facturering</a>
           </li>
           <li class="nav-item">
@@ -38,11 +38,23 @@
     </nav>
 
     <main role="main" class="container">
-      <div class="jumbotron">
-        <h1>Container</h1>
-        <p class="lead">This is a cool popup container</p>
-        <a class="btn btn-lg btn-primary" href="#" role="button">View the stuffs &raquo;</a>
-      </div>
+        <div class="row">
+            <div class="jumbotron col">
+                <h1>Orders</h1>
+                <input type="search" placeholder="Order nummer">
+                <br>
+                <a href="order1643.html">Order 1643</a>
+                <br>
+                <a href="order5464.html">Order 5464</a>
+                <br>
+                <a href="order4343.html">Order 4343</a>
+                <br>
+            </div>
+            <div class="jumbotron col">
+                <h1>Informatie Order</h1>
+                <p class="lead">Klik op een order voor informatie</p>
+            </div>
+        </div>
     </main>
 
 

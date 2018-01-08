@@ -7,7 +7,7 @@
     <meta name="description" content="">
     <meta name="author" content="">
     <link rel="icon" href="../../../../favicon.ico">
-    <title>Facturering</title>
+    <title>Top navbar example for Bootstrap</title>
     <link href="bootstrap/css/bootstrap.min.css" rel="stylesheet">
     <link href="css/theme.css" rel="stylesheet">
   </head>
@@ -38,18 +38,39 @@
     </nav>
 
     <main role="main" class="container">
-      <div class="jumbotron">
-        <h1>Orders overzicht</h1>
-        <p class="lead"> Orders die te factureren zijn. (geleverd, maar nog niet gefactureerd)</p>
-        <a class="btn btn-lg btn-primary" href="order-overzicht.html" role="button">Ga naar overzicht &raquo;</a>
-      </div>
-    
-    <div class="jumbotron">
-      <h1>Wanbetalers</h1>
-      <p class="lead">Wanbetalers nabellen: bedrijven die nalatig zijn bij het betalen van hun facturen moeten gebeld worden. </p>
-      <a class="btn btn-lg btn-primary" href="wanbetalers.html" role="button">Ga naar wanbetalers &raquo;</a>
-  </div>
-  </main>
+            <div class="row">
+                <div class="jumbotron col">
+                    <h1>Orders</h1>
+                    <input type="search" placeholder="Order nummer">
+                    <br>
+                    <a href="order1643.html">Order 1643</a>
+                    <br>
+                    <a href="order5464.html">Order 5464</a>
+                    <br>
+                    <a href="order4343.html">Order 4343</a>
+                    <br>
+                </div>
+                <div class="jumbotron col">
+                    <h1>Informatie Order</h1>
+                    <p class="lead">Order 1643</p>
+                   <p1>
+                        Naam: OverwatchWorld
+                        <br>
+                        Datum verzonden: 08-01-2018
+                        <br>
+                        Aangekomen? <span style="color: green"> X </span>
+                        <br>
+                        Betaald? <input type="checkbox" name="betaald">
+                        <br>
+                        Datum betaald: -
+                        <br>
+                        Waarschuwingen verstuurd: 0
+                        <br>
+                        Telefoonnr: 0648291031
+                    </p1>
+                </div>
+            </div>
+        </main>
 
 
     <!-- Bootstrap core JavaScript
